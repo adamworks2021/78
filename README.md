@@ -1,36 +1,177 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 78° 魔法香水品牌官网
 
-## Getting Started
+一个现代化的品牌宣传网站，展示78°魔法香水的品牌故事、产品系列和代理政策。
 
-First, run the development server:
+## 🌟 项目概述
+
+78°魔法香水起源于意大利，融合了塔罗牌的神秘智慧和古老的魔法香水配方。本网站旨在：
+
+- 展示品牌故事和理念
+- 介绍12款星座主题香水
+- 提供代理政策信息
+- 通过微信二维码建立客户联系
+
+## 🚀 技术栈
+
+- **前端框架**: Next.js 15 (App Router)
+- **样式**: Tailwind CSS
+- **语言**: TypeScript
+- **部署**: Vercel (前端) + 甲骨文云VPS (后端)
+
+## 📁 项目结构
+
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── layout.tsx         # 根布局
+│   ├── page.tsx           # 首页
+│   ├── products/          # 产品展示页面
+│   ├── story/             # 品牌故事页面
+│   ├── agency/            # 代理政策页面
+│   └── contact/           # 联系页面
+├── components/            # 可复用组件
+│   ├── ui/               # 基础UI组件
+│   ├── layout/           # 布局组件
+│   └── sections/         # 页面区块组件
+├── lib/                  # 工具函数
+└── types/                # TypeScript类型定义
+```
+
+## 🎨 设计特色
+
+- 现代化响应式设计
+- 神秘优雅的视觉风格
+- 星座主题元素
+- 流畅的用户体验
+
+## 🛠️ 开发指南
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 启动开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开 [http://localhost:3000](http://localhost:3000) 查看结果。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 构建生产版本
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+### 启动生产服务器
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 功能模块
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. 首页 ✅
+- 英雄区域展示品牌核心信息
+- 品牌理念（塔罗能量、天然成分、能量疗愈）
+- 产品预览（12款星座香水）
+- 代理政策预览
+- 数据统计和用户见证
 
-## Deploy on Vercel
+### 2. 产品展示 ✅
+- 12款星座香水完整展示
+- 搜索和筛选功能
+- 详细产品信息页面
+- 规格价格展示
+- 代理价格对比
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. 品牌故事 ✅
+- 创始人Adam的意大利之旅
+- 品牌发展历程和价值观
+- 时间线展示
+- 品牌愿景和使命
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 4. 代理政策 ✅
+- 三级代理体系详解
+- 返利制度和晋升机制
+- 加入流程和常见问题
+- 代理优势展示
+
+### 5. 联系我们 ✅
+- 微信二维码展示
+- 多种联系方式
+- 在线留言表单
+- 服务承诺
+
+## 🚀 部署
+
+### Vercel部署（推荐）
+
+1. 将代码推送到GitHub
+2. 在Vercel中导入项目
+3. 自动部署完成
+
+### 手动部署
+
+```bash
+npm run build
+npm run export  # 如需静态导出
+```
+
+## 📞 联系信息
+
+- **品牌**: 78° 魔法香水
+- **创始人**: Adam
+- **微信**: [扫描网站二维码]
+
+## ✨ 项目特色
+
+### 🎨 现代化设计
+- 响应式设计，完美适配各种设备
+- 流畅的动画效果和交互体验
+- 星座主题的视觉设计
+- 神秘优雅的品牌风格
+
+### ⚡ 性能优化
+- Next.js 15 App Router 架构
+- 图片优化和懒加载
+- Web Vitals 性能监控
+- SEO 优化和结构化数据
+
+### 🛠️ 技术亮点
+- TypeScript 类型安全
+- Tailwind CSS 原子化样式
+- Framer Motion 动画库
+- 完整的错误处理和加载状态
+
+### 📱 用户体验
+- 直观的导航和搜索
+- 个性化的产品推荐
+- 便捷的联系方式
+- 专业的客服支持
+
+## 🚀 部署状态
+
+- ✅ 开发环境运行正常
+- ✅ 生产构建成功
+- ✅ 性能优化完成
+- ✅ SEO 配置完成
+- 📋 待部署到 Vercel
+
+## 📞 技术支持
+
+如有技术问题，请查看：
+- [部署指南](./DEPLOYMENT.md)
+- [Next.js 文档](https://nextjs.org/docs)
+- [Tailwind CSS 文档](https://tailwindcss.com/docs)
+
+## 📄 许可证
+
+本项目仅用于78°魔法香水品牌宣传，版权所有。
+
+---
+
+**🌟 78°魔法香水 - 开启你的能量之门 ✨**
