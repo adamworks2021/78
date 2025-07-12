@@ -1,11 +1,10 @@
 'use client'
 
-import { Section, SectionHeader } from "@/components/ui/section"
+import { Section } from "@/components/ui/section"
 import { PerfumeCard } from "@/components/ui/perfume-card"
 import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
 import { perfumes } from "@/lib/data"
-import { Sparkles, Star } from "lucide-react"
+import { Sparkles } from "lucide-react"
 
 export default function ProductsPage() {
   // 显示所有产品

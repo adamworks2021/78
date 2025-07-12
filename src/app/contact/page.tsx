@@ -7,17 +7,16 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { contactInfo } from "@/lib/data"
-import { 
-  MessageCircle, 
-  Phone, 
-  Mail, 
-  MapPin, 
-  Clock, 
+import {
+  MessageCircle,
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
   Send,
   QrCode,
   Sparkles,
   Heart,
-  Star,
   CheckCircle
 } from "lucide-react"
 
@@ -112,7 +111,7 @@ export default function ContactPage() {
                     微信号：{contactInfo.wechat.id}
                   </Badge>
                   <p className="text-sm text-gray-600">
-                    添加时请备注"78°咨询"，我们会尽快回复您
+                    添加时请备注&ldquo;78°咨询&rdquo;，我们会尽快回复您
                   </p>
                 </div>
                 

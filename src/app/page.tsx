@@ -4,11 +4,10 @@ import { Hero } from "@/components/sections/hero";
 import { FeaturedProducts } from "@/components/sections/featured-products";
 import { Section, SectionHeader } from "@/components/ui/section";
 import { Button } from "@/components/ui/button";
-import { PerfumeCard } from "@/components/ui/perfume-card";
 import { AgentCard } from "@/components/ui/agent-card";
 import Link from "next/link";
-import { Sparkles, Star, Heart, Shield, Users, Award, TrendingUp } from "lucide-react";
-import { perfumes, agentLevels } from "@/lib/data";
+import { Sparkles, Star, Heart, Users, Award, TrendingUp } from "lucide-react";
+import { agentLevels } from "@/lib/data";
 import { getZodiacColor, getZodiacIcon } from "@/lib/utils";
 
 export default function Home() {
@@ -188,7 +187,7 @@ export default function Home() {
                   <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
                 ))}
               </div>
-              <p className="text-gray-600 italic">"{testimonial.content}"</p>
+              <p className="text-gray-600 italic">&ldquo;{testimonial.content}&rdquo;</p>
             </div>
           ))}
         </div>

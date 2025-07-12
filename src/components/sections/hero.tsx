@@ -3,8 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { Sparkles, Star, Zap, Moon, Sun } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { Sparkles, Star, Zap } from 'lucide-react'
 
 export function Hero() {
   return (

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
+
 import { Badge } from '@/components/ui/badge'
 import { getZodiacColor, getZodiacIcon, formatPrice } from '@/lib/utils'
 import { Perfume } from '@/types'
@@ -11,10 +11,9 @@ import { Sparkles, Star } from 'lucide-react'
 interface PerfumeCardProps {
   perfume: Perfume
   index?: number
-  onLearnMore?: () => void
 }
 
-export function PerfumeCard({ perfume, index = 0, onLearnMore }: PerfumeCardProps) {
+export function PerfumeCard({ perfume, index = 0 }: PerfumeCardProps) {
   const zodiacColor = getZodiacColor(perfume.zodiac)
   const zodiacIcon = getZodiacIcon(perfume.zodiac)
 

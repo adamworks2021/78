@@ -6,21 +6,20 @@ import { Section, SectionHeader } from "@/components/ui/section"
 import { AgentCard } from "@/components/ui/agent-card"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+
 import { agentLevels } from "@/lib/data"
 import { formatPrice } from "@/lib/utils"
-import { 
-  Users, 
-  TrendingUp, 
-  Award, 
-  CheckCircle, 
-  ArrowRight, 
+import {
+  Users,
+  TrendingUp,
+  Award,
+  CheckCircle,
+  ArrowRight,
   Star,
   Crown,
   Zap,
   Gift,
   Target,
-  Calendar,
   DollarSign
 } from "lucide-react"
 import Link from "next/link"

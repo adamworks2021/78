@@ -46,7 +46,7 @@ export function WebVitals() {
 }
 
 // 发送性能数据到分析服务
-function sendToAnalytics(name: string, metric: any) {
+function sendToAnalytics(name: string, metric: Metric) {
   // 这里可以集成 Google Analytics, Vercel Analytics 等
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', name, {
