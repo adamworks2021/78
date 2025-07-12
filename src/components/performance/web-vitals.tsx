@@ -6,34 +6,34 @@ import { useEffect } from 'react'
 export function WebVitals() {
   useEffect(() => {
     // 动态导入 web-vitals 库
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+    import('web-vitals').then(({ onCLS, onINP, onFCP, onLCP, onTTFB }) => {
       // 监控 Cumulative Layout Shift (CLS)
-      getCLS((metric) => {
+      onCLS((metric) => {
         console.log('CLS:', metric)
         // 可以发送到分析服务
         sendToAnalytics('CLS', metric)
       })
 
       // 监控 First Input Delay (FID)
-      getFID((metric) => {
+      onFID((metric) => {
         console.log('FID:', metric)
         sendToAnalytics('FID', metric)
       })
 
       // 监控 First Contentful Paint (FCP)
-      getFCP((metric) => {
+      onFCP((metric) => {
         console.log('FCP:', metric)
         sendToAnalytics('FCP', metric)
       })
 
       // 监控 Largest Contentful Paint (LCP)
-      getLCP((metric) => {
+      onLCP((metric) => {
         console.log('LCP:', metric)
         sendToAnalytics('LCP', metric)
       })
 
       // 监控 Time to First Byte (TTFB)
-      getTTFB((metric) => {
+      onTTFB((metric) => {
         console.log('TTFB:', metric)
         sendToAnalytics('TTFB', metric)
       })
