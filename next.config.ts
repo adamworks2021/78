@@ -15,7 +15,8 @@ const nextConfig: NextConfig = {
 
   // 实验性功能
   experimental: {
-    optimizeCss: true,
+    // 暂时禁用CSS优化以避免构建错误
+    // optimizeCss: true,
     optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
 

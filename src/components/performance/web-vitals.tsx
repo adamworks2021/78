@@ -1,6 +1,14 @@
 'use client'
 
 import { useEffect } from 'react'
+import type { Metric } from 'web-vitals'
+
+// 扩展Window类型以支持gtag
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void
+  }
+}
 
 // Web Vitals 性能监控
 export function WebVitals() {
@@ -14,10 +22,10 @@ export function WebVitals() {
         sendToAnalytics('CLS', metric)
       })
 
-      // 监控 First Input Delay (FID)
-      onFID((metric) => {
-        console.log('FID:', metric)
-        sendToAnalytics('FID', metric)
+      // 监控 Interaction to Next Paint (INP)
+      onINP((metric) => {
+        console.log('INP:', metric)
+        sendToAnalytics('INP', metric)
       })
 
       // 监控 First Contentful Paint (FCP)
@@ -97,7 +105,7 @@ export function PageLoadMonitor() {
             // 页面完全加载时间
             loadTime: navigation.loadEventEnd - navigation.loadEventStart,
             // 总时间
-            totalTime: navigation.loadEventEnd - navigation.navigationStart,
+            totalTime: navigation.loadEventEnd - navigation.fetchStart,
           }
           
           console.log('Page Load Metrics:', metrics)
