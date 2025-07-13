@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { getZodiacColor, getZodiacIcon, formatPrice } from '@/lib/utils'
 import { Perfume } from '@/types'
 import { Sparkles, Star } from 'lucide-react'
+import { CarouselImage } from '@/components/ui/carousel-image'
 
 interface PerfumeCardProps {
   perfume: Perfume
@@ -26,20 +27,13 @@ export function PerfumeCard({ perfume, index = 0 }: PerfumeCardProps) {
       className="group"
     >
       <Card className="h-full overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white/80 backdrop-blur-sm">
-        {/* 香水图片区域 */}
-        <div className={`relative h-48 bg-gradient-to-br ${zodiacColor} p-6 flex items-center justify-center`}>
-          <div className="absolute inset-0 bg-black/10"></div>
-          <div className="relative z-10 text-center">
-            <div className="text-6xl mb-2 animate-float">
-              {zodiacIcon}
-            </div>
-            <Badge variant="secondary" className="bg-white/20 text-white border-white/30">
-              {perfume.zodiac}
-            </Badge>
-          </div>
-          <div className="absolute top-4 right-4">
-            <Sparkles className="h-6 w-6 text-white/80 animate-pulse" />
-          </div>
+        {/* 香水产品图片区域 */}
+        <div className="relative aspect-[3/4] overflow-hidden bg-white">
+          <CarouselImage
+            zodiac={perfume.id}
+            className="w-full h-full transition-transform duration-300 group-hover:scale-105"
+            priority={index < 3}
+          />
         </div>
 
         <CardHeader className="pb-3">

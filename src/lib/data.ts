@@ -13,12 +13,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -37,12 +37,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -61,12 +61,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -85,12 +85,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -109,12 +109,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -133,12 +133,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -157,12 +157,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -181,12 +181,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -205,12 +205,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -229,12 +229,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -253,12 +253,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -277,12 +277,12 @@ export const perfumes: Perfume[] = [
     sizes: [
       {
         volume: 15,
-        price: 399,
+        price: 299,
         agentPrices: { level1: 269, level2: 249, level3: 159 }
       },
       {
         volume: 30,
-        price: 599,
+        price: 455,
         agentPrices: { level1: 385, level2: 355, level3: 239 }
       }
     ],
@@ -406,7 +406,7 @@ export const storyChapters: StoryChapter[] = [
 export const contactInfo: ContactInfo = {
   wechat: {
     qrCode: '/images/wechat-qr.jpg',
-    id: 'Adam78Perfume'
+    id: 'adamworks78'
   },
   phone: '+86 138 0000 0000',
   email: 'contact@78perfume.com',

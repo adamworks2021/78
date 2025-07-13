@@ -1,0 +1,306 @@
+{
+  "products": {
+    "aries": {
+      "thumb": {
+        "webp": "/optimized/products/aries-thumb.webp",
+        "avif": "/optimized/products/aries-thumb.avif",
+        "jpeg": "/optimized/products/aries-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/aries-medium.webp",
+        "avif": "/optimized/products/aries-medium.avif",
+        "jpeg": "/optimized/products/aries-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/aries-large.webp",
+        "avif": "/optimized/products/aries-large.avif",
+        "jpeg": "/optimized/products/aries-large.jpeg"
+      }
+    },
+    "taurus": {
+      "thumb": {
+        "webp": "/optimized/products/taurus-thumb.webp",
+        "avif": "/optimized/products/taurus-thumb.avif",
+        "jpeg": "/optimized/products/taurus-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/taurus-medium.webp",
+        "avif": "/optimized/products/taurus-medium.avif",
+        "jpeg": "/optimized/products/taurus-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/taurus-large.webp",
+        "avif": "/optimized/products/taurus-large.avif",
+        "jpeg": "/optimized/products/taurus-large.jpeg"
+      }
+    },
+    "gemini": {
+      "thumb": {
+        "webp": "/optimized/products/gemini-thumb.webp",
+        "avif": "/optimized/products/gemini-thumb.avif",
+        "jpeg": "/optimized/products/gemini-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/gemini-medium.webp",
+        "avif": "/optimized/products/gemini-medium.avif",
+        "jpeg": "/optimized/products/gemini-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/gemini-large.webp",
+        "avif": "/optimized/products/gemini-large.avif",
+        "jpeg": "/optimized/products/gemini-large.jpeg"
+      }
+    },
+    "cancer": {
+      "thumb": {
+        "webp": "/optimized/products/cancer-thumb.webp",
+        "avif": "/optimized/products/cancer-thumb.avif",
+        "jpeg": "/optimized/products/cancer-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/cancer-medium.webp",
+        "avif": "/optimized/products/cancer-medium.avif",
+        "jpeg": "/optimized/products/cancer-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/cancer-large.webp",
+        "avif": "/optimized/products/cancer-large.avif",
+        "jpeg": "/optimized/products/cancer-large.jpeg"
+      }
+    },
+    "leo": {
+      "thumb": {
+        "webp": "/optimized/products/leo-thumb.webp",
+        "avif": "/optimized/products/leo-thumb.avif",
+        "jpeg": "/optimized/products/leo-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/leo-medium.webp",
+        "avif": "/optimized/products/leo-medium.avif",
+        "jpeg": "/optimized/products/leo-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/leo-large.webp",
+        "avif": "/optimized/products/leo-large.avif",
+        "jpeg": "/optimized/products/leo-large.jpeg"
+      }
+    },
+    "virgo": {
+      "thumb": {
+        "webp": "/optimized/products/virgo-thumb.webp",
+        "avif": "/optimized/products/virgo-thumb.avif",
+        "jpeg": "/optimized/products/virgo-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/virgo-medium.webp",
+        "avif": "/optimized/products/virgo-medium.avif",
+        "jpeg": "/optimized/products/virgo-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/virgo-large.webp",
+        "avif": "/optimized/products/virgo-large.avif",
+        "jpeg": "/optimized/products/virgo-large.jpeg"
+      }
+    },
+    "libra": {
+      "thumb": {
+        "webp": "/optimized/products/libra-thumb.webp",
+        "avif": "/optimized/products/libra-thumb.avif",
+        "jpeg": "/optimized/products/libra-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/libra-medium.webp",
+        "avif": "/optimized/products/libra-medium.avif",
+        "jpeg": "/optimized/products/libra-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/libra-large.webp",
+        "avif": "/optimized/products/libra-large.avif",
+        "jpeg": "/optimized/products/libra-large.jpeg"
+      }
+    },
+    "scorpio": {
+      "thumb": {
+        "webp": "/optimized/products/scorpio-thumb.webp",
+        "avif": "/optimized/products/scorpio-thumb.avif",
+        "jpeg": "/optimized/products/scorpio-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/scorpio-medium.webp",
+        "avif": "/optimized/products/scorpio-medium.avif",
+        "jpeg": "/optimized/products/scorpio-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/scorpio-large.webp",
+        "avif": "/optimized/products/scorpio-large.avif",
+        "jpeg": "/optimized/products/scorpio-large.jpeg"
+      }
+    },
+    "sagittarius": {
+      "thumb": {
+        "webp": "/optimized/products/sagittarius-thumb.webp",
+        "avif": "/optimized/products/sagittarius-thumb.avif",
+        "jpeg": "/optimized/products/sagittarius-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/sagittarius-medium.webp",
+        "avif": "/optimized/products/sagittarius-medium.avif",
+        "jpeg": "/optimized/products/sagittarius-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/sagittarius-large.webp",
+        "avif": "/optimized/products/sagittarius-large.avif",
+        "jpeg": "/optimized/products/sagittarius-large.jpeg"
+      }
+    },
+    "capricorn": {
+      "thumb": {
+        "webp": "/optimized/products/capricorn-thumb.webp",
+        "avif": "/optimized/products/capricorn-thumb.avif",
+        "jpeg": "/optimized/products/capricorn-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/capricorn-medium.webp",
+        "avif": "/optimized/products/capricorn-medium.avif",
+        "jpeg": "/optimized/products/capricorn-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/capricorn-large.webp",
+        "avif": "/optimized/products/capricorn-large.avif",
+        "jpeg": "/optimized/products/capricorn-large.jpeg"
+      }
+    },
+    "aquarius": {
+      "thumb": {
+        "webp": "/optimized/products/aquarius-thumb.webp",
+        "avif": "/optimized/products/aquarius-thumb.avif",
+        "jpeg": "/optimized/products/aquarius-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/aquarius-medium.webp",
+        "avif": "/optimized/products/aquarius-medium.avif",
+        "jpeg": "/optimized/products/aquarius-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/aquarius-large.webp",
+        "avif": "/optimized/products/aquarius-large.avif",
+        "jpeg": "/optimized/products/aquarius-large.jpeg"
+      }
+    },
+    "pisces": {
+      "thumb": {
+        "webp": "/optimized/products/pisces-thumb.webp",
+        "avif": "/optimized/products/pisces-thumb.avif",
+        "jpeg": "/optimized/products/pisces-thumb.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/products/pisces-medium.webp",
+        "avif": "/optimized/products/pisces-medium.avif",
+        "jpeg": "/optimized/products/pisces-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/products/pisces-large.webp",
+        "avif": "/optimized/products/pisces-large.avif",
+        "jpeg": "/optimized/products/pisces-large.jpeg"
+      }
+    }
+  },
+  "effects": {
+    "aries": {
+      "webp": "/optimized/effects/aries-effect.webp",
+      "avif": "/optimized/effects/aries-effect.avif",
+      "jpeg": "/optimized/effects/aries-effect.jpeg"
+    },
+    "taurus": {
+      "webp": "/optimized/effects/taurus-effect.webp",
+      "avif": "/optimized/effects/taurus-effect.avif",
+      "jpeg": "/optimized/effects/taurus-effect.jpeg"
+    },
+    "gemini": {
+      "webp": "/optimized/effects/gemini-effect.webp",
+      "avif": "/optimized/effects/gemini-effect.avif",
+      "jpeg": "/optimized/effects/gemini-effect.jpeg"
+    },
+    "cancer": {
+      "webp": "/optimized/effects/cancer-effect.webp",
+      "avif": "/optimized/effects/cancer-effect.avif",
+      "jpeg": "/optimized/effects/cancer-effect.jpeg"
+    },
+    "leo": {
+      "webp": "/optimized/effects/leo-effect.webp",
+      "avif": "/optimized/effects/leo-effect.avif",
+      "jpeg": "/optimized/effects/leo-effect.jpeg"
+    },
+    "virgo": {
+      "webp": "/optimized/effects/virgo-effect.webp",
+      "avif": "/optimized/effects/virgo-effect.avif",
+      "jpeg": "/optimized/effects/virgo-effect.jpeg"
+    },
+    "libra": {
+      "webp": "/optimized/effects/libra-effect.webp",
+      "avif": "/optimized/effects/libra-effect.avif",
+      "jpeg": "/optimized/effects/libra-effect.jpeg"
+    },
+    "scorpio": {
+      "webp": "/optimized/effects/scorpio-effect.webp",
+      "avif": "/optimized/effects/scorpio-effect.avif",
+      "jpeg": "/optimized/effects/scorpio-effect.jpeg"
+    },
+    "sagittarius": {
+      "webp": "/optimized/effects/sagittarius-effect.webp",
+      "avif": "/optimized/effects/sagittarius-effect.avif",
+      "jpeg": "/optimized/effects/sagittarius-effect.jpeg"
+    },
+    "capricorn": {
+      "webp": "/optimized/effects/capricorn-effect.webp",
+      "avif": "/optimized/effects/capricorn-effect.avif",
+      "jpeg": "/optimized/effects/capricorn-effect.jpeg"
+    },
+    "aquarius": {
+      "webp": "/optimized/effects/aquarius-effect.webp",
+      "avif": "/optimized/effects/aquarius-effect.avif",
+      "jpeg": "/optimized/effects/aquarius-effect.jpeg"
+    },
+    "pisces": {
+      "webp": "/optimized/effects/pisces-effect.webp",
+      "avif": "/optimized/effects/pisces-effect.avif",
+      "jpeg": "/optimized/effects/pisces-effect.jpeg"
+    }
+  },
+  "brand": {
+    "logo": {
+      "small": {
+        "webp": "/optimized/brand/logo-small.webp",
+        "avif": "/optimized/brand/logo-small.avif",
+        "jpeg": "/optimized/brand/logo-small.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/brand/logo-medium.webp",
+        "avif": "/optimized/brand/logo-medium.avif",
+        "jpeg": "/optimized/brand/logo-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/brand/logo-large.webp",
+        "avif": "/optimized/brand/logo-large.avif",
+        "jpeg": "/optimized/brand/logo-large.jpeg"
+      }
+    },
+    "wechatQR": {
+      "small": {
+        "webp": "/optimized/brand/wechat-qr-small.webp",
+        "avif": "/optimized/brand/wechat-qr-small.avif",
+        "jpeg": "/optimized/brand/wechat-qr-small.jpeg"
+      },
+      "medium": {
+        "webp": "/optimized/brand/wechat-qr-medium.webp",
+        "avif": "/optimized/brand/wechat-qr-medium.avif",
+        "jpeg": "/optimized/brand/wechat-qr-medium.jpeg"
+      },
+      "large": {
+        "webp": "/optimized/brand/wechat-qr-large.webp",
+        "avif": "/optimized/brand/wechat-qr-large.avif",
+        "jpeg": "/optimized/brand/wechat-qr-large.jpeg"
+      }
+    }
+  }
+}

@@ -39,5 +39,48 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Backend files (not needed for frontend deployment)
 /backend
+
+# Documentation files
 *.md
+/docs
+
+# Original image files (HEIC format - too large)
+public/*.HEIC
+public/*.heic
+
+# Large original image files
+public/*.PNG
+public/all.PNG
+
+# Converted images directory (we use optimized instead)
+public/converted/
+
+# Development scripts
+scripts/convert-heic.js
+scripts/process-logo.js
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Keep only these essential files in public/:
+# - public/optimized/ (all optimized images)
+# - public/*.svg (vector icons)
+# - public/logo.png (brand logo)
+# - public/wechatqr.jpg (WeChat QR code)
+# - Essential JPG product images (if small enough)

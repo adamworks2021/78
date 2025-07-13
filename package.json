@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize-images": "node scripts/optimize-images.js",
+    "convert-heic": "node scripts/convert-heic.js",
+    "process-images": "npm run convert-heic && npm run optimize-images",
+    "build-with-images": "npm run process-images && npm run build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -26,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
+    "sharp": "^0.34.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

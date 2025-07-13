@@ -6,6 +6,7 @@ import { Section, SectionHeader } from '@/components/ui/section'
 import { perfumes } from '@/lib/data'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { CarouselImage } from '@/components/ui/carousel-image'
 
 export function FeaturedProducts() {
   // 精选产品（前3个）
@@ -33,16 +34,12 @@ export function FeaturedProducts() {
               {/* 产品卡片 */}
               <div className="relative bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
                 {/* 产品图片区域 */}
-                <div className={`aspect-square bg-gradient-to-br ${perfume.color} p-8 flex items-center justify-center relative`}>
-                  <div className="text-center text-white">
-                    <div className="text-6xl mb-4">{perfume.icon}</div>
-                    <div className="text-sm font-medium bg-white/20 backdrop-blur-sm rounded-full px-3 py-1">
-                      {perfume.zodiac}
-                    </div>
-                  </div>
-                  
-                  {/* 悬停效果 */}
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="relative aspect-[3/4] overflow-hidden bg-white">
+                  <CarouselImage
+                    zodiac={perfume.id}
+                    className="w-full h-full transition-transform duration-300 group-hover:scale-105"
+                    priority={index < 3}
+                  />
                 </div>
 
                 {/* 产品信息 */}
@@ -68,16 +65,17 @@ export function FeaturedProducts() {
                   </div>
 
                   {/* 查看详情按钮 */}
-                  <Button 
-                    variant="outline" 
-                    className="w-full group-hover:bg-brand-primary group-hover:text-white transition-colors duration-300"
-                    asChild
-                  >
-                    <Link href="/products">
-                      了解详情
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
-                  </Button>
+                  <Link href="/products" className="block">
+                    <div className="relative overflow-hidden rounded-xl bg-gradient-to-r from-purple-50 to-pink-50 border border-purple-200 hover:border-purple-300 transition-all duration-300 group/btn">
+                      <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300"></div>
+                      <div className="relative px-6 py-3 flex items-center justify-center space-x-2 text-purple-700 group-hover/btn:text-white transition-colors duration-300">
+                        <span className="font-semibold">了解详情</span>
+                        <ArrowRight className="h-4 w-4 transform group-hover/btn:translate-x-1 transition-transform duration-300" />
+                      </div>
+                      {/* 魔法闪烁效果 */}
+                      <div className="absolute top-1 right-1 w-2 h-2 bg-yellow-400 rounded-full opacity-0 group-hover/btn:opacity-100 animate-pulse"></div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </motion.div>
@@ -91,12 +89,27 @@ export function FeaturedProducts() {
           transition={{ delay: 0.8 }}
           className="text-center mt-12"
         >
-          <Button size="lg" variant="gradient" asChild>
-            <Link href="/products">
-              查看全部12款星座香水
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
+          <Link href="/products" className="inline-block">
+            <div className="relative group/main-btn">
+              {/* 背景光晕效果 */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 rounded-2xl blur opacity-30 group-hover/main-btn:opacity-60 transition duration-500 animate-pulse"></div>
+
+              {/* 主按钮 */}
+              <div className="relative px-12 py-4 bg-gradient-to-r from-purple-600 via-pink-500 to-purple-600 rounded-xl text-white font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+                {/* 星座图案装饰 */}
+                <div className="absolute top-1 left-3 text-yellow-300 text-xs opacity-70">✨</div>
+                <div className="absolute bottom-1 right-3 text-yellow-300 text-xs opacity-70">⭐</div>
+
+                <div className="flex items-center justify-center space-x-3">
+                  <span>查看全部12款星座香水</span>
+                  <ArrowRight className="h-5 w-5 transform group-hover/main-btn:translate-x-2 transition-transform duration-300" />
+                </div>
+
+                {/* 内部光效 */}
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover/main-btn:opacity-100 transition-opacity duration-500"></div>
+              </div>
+            </div>
+          </Link>
         </motion.div>
       </div>
     </Section>
