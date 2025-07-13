@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Button } from '@/components/ui/button'
 import { Section, SectionHeader } from '@/components/ui/section'
 import { perfumes } from '@/lib/data'
 import { ArrowRight } from 'lucide-react'

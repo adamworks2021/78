@@ -17,20 +17,20 @@ interface OptimizedImageProps {
 }
 
 // 图片格式优先级（现代浏览器支持的格式优先）
-const formatPriority = ['avif', 'webp', 'jpeg', 'jpg', 'png']
+// const formatPriority = ['avif', 'webp', 'jpeg', 'jpg', 'png']
 
 // 生成不同格式的图片源
-function generateSources(basePath: string, formats: string[] = formatPriority) {
-  const sources: { srcSet: string; type: string }[] = []
-  
-  formats.forEach(format => {
-    const srcSet = basePath.replace(/\.(jpg|jpeg|png|webp|avif)$/i, `.${format}`)
-    const mimeType = format === 'jpg' ? 'image/jpeg' : `image/${format}`
-    sources.push({ srcSet, type: mimeType })
-  })
-  
-  return sources
-}
+// function generateSources(basePath: string, formats: string[] = formatPriority) {
+//   const sources: { srcSet: string; type: string }[] = []
+//
+//   formats.forEach(format => {
+//     const srcSet = basePath.replace(/\.(jpg|jpeg|png|webp|avif)$/i, `.${format}`)
+//     const mimeType = format === 'jpg' ? 'image/jpeg' : `image/${format}`
+//     sources.push({ srcSet, type: mimeType })
+//   })
+//
+//   return sources
+// }
 
 export function OptimizedImage({
   src,

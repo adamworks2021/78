@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
 import { Badge } from '@/components/ui/badge'
-import { getZodiacColor, getZodiacIcon, formatPrice } from '@/lib/utils'
+import { formatPrice } from '@/lib/utils'
 import { Perfume } from '@/types'
-import { Sparkles, Star } from 'lucide-react'
+import { Star } from 'lucide-react'
 import { CarouselImage } from '@/components/ui/carousel-image'
 
 interface PerfumeCardProps {
@@ -15,8 +15,6 @@ interface PerfumeCardProps {
 }
 
 export function PerfumeCard({ perfume, index = 0 }: PerfumeCardProps) {
-  const zodiacColor = getZodiacColor(perfume.zodiac)
-  const zodiacIcon = getZodiacIcon(perfume.zodiac)
 
   return (
     <motion.div

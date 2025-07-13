@@ -1,4 +1,5 @@
 import { contactInfo } from "@/lib/data"
+import Image from "next/image"
 
 export default function ContactPage() {
   return (
@@ -31,9 +32,11 @@ export default function ContactPage() {
                 
                 {/* 微信二维码 */}
                 <div className="w-80 h-80 mx-auto bg-white rounded-2xl shadow-lg p-6 mb-8">
-                  <img 
+                  <Image
                     src="/optimized/brand/wechat-qr-large.webp"
                     alt="78° 魔法香水官方微信二维码"
+                    width={320}
+                    height={320}
                     className="w-full h-full rounded-lg object-cover"
                   />
                 </div>
