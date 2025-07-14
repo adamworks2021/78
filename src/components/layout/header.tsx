@@ -110,7 +110,7 @@ export function Header() {
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
               className="fixed inset-y-0 right-0 z-[9999] w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 shadow-2xl"
-              style={{ maxHeight: '100vh', maxHeight: '100dvh' }}
+              style={{ maxHeight: '100dvh' }}
             >
               <div className="flex items-center justify-between">
                 <Link href="/" className="-m-1.5 p-1.5">
